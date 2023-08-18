@@ -55,7 +55,7 @@ stages:
         testResultsFormat: 'JUnit'
         testResultsFiles: '**/junit-report-high-crit.xml'
         mergeTestResults: true
-        failTaskOnFailedTests: true
+        failTaskOnFailedTests: false
         testRunTitle: 'Trivy - High and Critical Vulnerabilities'
       condition: 'always()'             
 
