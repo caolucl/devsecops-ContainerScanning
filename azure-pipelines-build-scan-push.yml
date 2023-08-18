@@ -5,7 +5,7 @@ resources:
 - repo: self
 
 variables:
-  trivyVersion: 0.9.2
+  trivyVersion: 0.44.1
   tag: 'azuredevops-$(Build.BuildNumber)'
   imageName: 'caolucl/container-scanning-demo'
 
